@@ -12,13 +12,13 @@ function StarWars(props) {
           <strong>Height:</strong> {props.character.height}
         </p>
         <p>
-          <strong>Hair Color</strong> {props.character.hair_color}
+          <strong>Hair Color:</strong> {props.character.hair_color}
         </p>
         <p>
-          <strong>Eye Color</strong> {props.character.eye_color}
+          <strong>Eye Color:</strong> {props.character.eye_color}
         </p>
         <p>
-          <strong>Skin Color</strong> {props.character.skin_color}
+          <strong>Skin Color:</strong> {props.character.skin_color}
         </p>
       </div>
     )
