@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React JS is a Javascript library used for building UIs. React allows developers to build reusable UI components enabling them to create large web applications where data can change without reloading the page. The main problem React tries to solve is speed, scalability and simplicity of use.
+
 - [ ] What does it mean to _think_ in react?
+
+  Thinking in React refers to breaking down the UI into components based on hierarchy. React functions as a one-way data flow down the component hierarchy, so being able to break down components with single responsibility principle in mind is important when planning your UI.
 
 - [ ] Describe state.
 
+  State hold information and is used when a component needs to keep track of information between renderings the component itself can create, modify and use the state. Unlike props, state is mutable.
+
 - [ ] Describe props.
+
+  Props are properties being passed into components similar to how arguments are passed into functions. Props can be passed down from parents or can be set within the components themselves. Unlike state, props are immutable.
 
 ## Project Set Up
 
